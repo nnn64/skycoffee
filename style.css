@@ -62,7 +62,6 @@ img{
 　ヘッダー
 ------------------- */
 header{
-    /* display: flex; */
     position: relative;
     height: 32px;
     align-items: center;
@@ -91,7 +90,6 @@ header{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    /* text-align: right; */
     width: 275px;
     padding: 145px 80px 363px 100px;
     row-gap: 60px;
@@ -112,7 +110,6 @@ header{
 }
 
 .btn-menu{
-    /* display: flex; */
     position: fixed;
     top: 0;
     right: 0;
@@ -132,7 +129,6 @@ header{
     right: 0;
     width: 100%;
     height: 3px;
-    /* transition: all 0.4s; */
     border-radius: 4px;
     background-color: #fff;
 }
@@ -357,26 +353,10 @@ header{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    /* text-align: right; */
     width: auto;
     padding: 0;
     column-gap: 30px;
 }
-
-/* .nav__item{
-    font-size: 18px;
-    letter-spacing: 2px;
-    line-height: 16px;
-} */
-
-/* .nav-link:hover{
-    opacity: 0.6;
-} */
-
-/* 
-.nav-link__active{
-    color: var(--main-color);
-} */
 
 .btn-menu{
     display: none;
@@ -389,10 +369,6 @@ header{
 /* -------------------
 　コンセプト
 ------------------- */
-/* .concept{
-    margin: 60px 0 100px 0;
-} */
-
 .concept .container{
     display: flex;
     align-items: center;
@@ -425,21 +401,6 @@ header{
 /* -------------------
 　ブログ
 ------------------- */
-/* .blog-heading{
-    text-align: center;
-} */
-
-/* .blog-heading .g-subtitle{
-    font-size: 12px;
-    letter-spacing: 0.36px;
-    line-height: 1;
-    padding-top: 5px;
-} */
-
-/* .blog-body{
-    padding: 30px 0 50px 0;
-} */
-
 .blog-list{
     display: flex;
     flex-flow:row wrap;
@@ -452,18 +413,6 @@ header{
     width: calc(100% / 3 - 3%);
 }
 
-/* .b-title{
-    font-size: 15px;
-    font-weight: bold;
-    line-height: 24px;
-    padding: 15px 0 5px 0;
-} */
-
-/* .b-date{
-    font-size: 12px;
-    letter-spacing: 0.6px;
-    line-height: 16px;
-} */
 
 .b-btn{
     display: block; 
@@ -479,20 +428,6 @@ header{
     border: 1px solid var(--main-color);
     border-radius: 3px;
 }
-
-/* .b-btn::after {
-    display: block;
-    content: "";
-    position: absolute;
-    top: 50%;
-    right: 1em;
-    width: 5px;
-    height: 9px;
-    transform: translateY(-50%);
-    background-image: url("img/icon_arrow-right.png");
-    background-repeat: no-repeat;
-    background-size: 5px 9px;
-  } */
 
 /* -------------------
 　フッター
